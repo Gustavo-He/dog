@@ -1,0 +1,207 @@
+:root{
+    --cor-principal: #EA1C81;
+    --cor-topo: #D8F1FB;
+    --cor-black: black;
+    --cor-brnaca: white;
+    --cor-fundo: #FAFBFF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+#header nav a{
+    text-decoration: none;
+    color:var(--cor-black);
+}
+#header nav a:hover{
+    background-color: var(--cor-principal);
+    color:var(--cor-brnaca);
+    border-radius: 15px;
+
+}
+.marginLateral{
+    margin:0px 20px;
+}
+
+main{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #banner{
+    background-image: url("../Dog/img.logo/Banner.png");
+    height: calc(100vh - 116px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginCimaBaixo{
+    margin: 15px 0px;
+}
+
+main h1{
+    color: var(--cor-black);
+    font-size: 2em;
+    margin: 100px 0px;
+}
+
+main h3{
+    color: var(--cor-black);
+}
+
+main #banner button{
+    background-color: var(--cor-principal);
+    color: var(--cor-brnaca);
+    border: none;
+    border-radius: 20px;
+}
+
+main #banner button:hover{
+    cursor: pointer;
+}
+
+#header,
+main #banner button,
+#header nav a:hover,
+#bemVindo,main #beneficios #beneficios-nossosbeneficios, main #form #form-formulario form,
+main #form button, main #form-formu{
+    padding: 20px;
+}
+
+
+#bemVindo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bemVindo #boasVindas h3{
+    color: var(--cor-principal);
+    margin-bottom: 10px;
+}
+
+main #beneficios{
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+}
+
+#beneficios-servicos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--cor-principal);
+}
+
+main #form #form-formulario form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main #form #form-formulario form input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width:  400px;
+    margin: 10px
+}
+
+main #form button{
+    background-color: var(--cor-principal);
+    color: var(--cor-brnaca);
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    width:  400px;
+}
+
+#rodape{
+    background-color: var(--cor-topo);
+    text-align: center;
+    height: 25vh;
+}
+
+/* Outro projeto */
+#form-texto{
+    text-align: center;
+    color: var(--cor-black);
+}
+
+main #form #form-formulario{
+    background-image: url(../Dog/img.logo/dog.png);
+    background-repeat: no-repeat;
+
+}
+
+main #form-formu button{
+    background-color: var(--cor-principal);
+    color: var(--cor-brnaca);
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    width:  400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#email{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width:  400px;
+    margin: 10px
+}
+
+#Senha{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width:  400px;
+    margin: 10px
+}
+
+/* outro projeto */
